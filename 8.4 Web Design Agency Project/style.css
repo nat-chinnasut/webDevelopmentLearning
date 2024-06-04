@@ -14,20 +14,40 @@ h1 {
   font-size: 5rem;
 }
 
+@media (min-width:748px){
+
 .left-card{
   float:left;
+  width: 50%;
 }
 
 .right-card{
   float: right;
+  width: 50%;
+}
+
+.text{
+  margin-left:5px;
+  float: left;
 }
 
 .tile-image{
   height:200px;
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 }
 
-.card-title{
-  float: left;
+@media (max-width: 747px){
+  .tile-image{
+    width:100%;
+    display: block;
+  }
+  .text{
+    text-align: justify;
+    text-align: center;
+  }
 }
 
 footer {
