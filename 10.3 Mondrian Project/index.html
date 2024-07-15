@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+      .container-top {
+        display: grid;
+        grid-template-columns: 320px 419px;
+        background-color: #232629;
+        height: 414px;
+        width: 748px;
+        gap: 9px;
+      }
+
+      .item-top-left {
+        background-color: #e72f24;
+      }
+      .item-top-right {
+        background-color: #f0f1ec;
+      }
+
+      .container-middle {
+        display: grid;
+        grid-template-columns: 320px 378px 50px;
+        background-color: #232629;
+        height: 334px;
+        width: 748px;
+        gap: 9px ;
+        
+      }
+
+      .middle-1 {
+        background-color: #f0f1ec;
+        /* width: 320px; */
+      }
+
+      .middle-2 {
+        background-color: #f0f1ec;
+        /* width: 320px; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container-top">
+      <div class="item-top-left"></div>
+      <div class="item-top-right"></div>
+    </div>
+
+    <div class="container-middle">
+      <div class="middle-1"></div>
+      <div class="middle-2"></div>
+      <div class="middle-small-set">
+        <div class="middle-3"></div>
+        <div class="middle-4"></div>
+      </div>
+    </div>
+  </body>
+</html>
